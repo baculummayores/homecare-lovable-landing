@@ -3,16 +3,16 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 export const Services = () => {
   const services = [
     {
-      title: "Cuidado Personal",
-      description: "Asistencia en higiene personal, vestimenta y movilidad",
+      title: "Atención Personal",
+      description: "Nos adaptamos a diferentes horarios y necesidades.",
     },
     {
       title: "Acompañamiento",
-      description: "Compañía y apoyo emocional en actividades diarias",
+      description: "Ofrecemos acompañamiento frente a los diferentes tipos de deterioro cognitivo, físico y emocional",
     },
     {
-      title: "Cuidados Médicos",
-      description: "Supervisión de medicación y cuidados básicos de salud",
+      title: "Gestión de Medicamentos y Terapias",
+      description: "Gestión de medicamentos y terapias y ejercicios personalizados",
     },
   ];
 
