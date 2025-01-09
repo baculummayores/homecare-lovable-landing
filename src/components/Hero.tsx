@@ -17,7 +17,7 @@ export const Hero = () => {
               className="inline-flex items-center px-6 py-3 bg-secondary text-white rounded-lg hover:bg-secondary/90 transition-colors"
             >
               <Heart className="mr-2 h-5 w-5" />
-              Contacta con nosotros
+              Infórmate gratis
             </a>
           </div>
           <div className="md:w-1/2">
