@@ -10,7 +10,7 @@ export const Hero = () => {
               Cuidados profesionales en la comodidad del hogar
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-8">
-              Servicios personalizados de atención domiciliaria con el cariño y profesionalidad que mereces
+              Ofrecemos servicios de atención domiciliaria adaptándonos a las condiciones de cada persona
             </p>
             <a
               href="#contact"
