@@ -5,7 +5,7 @@ export const WhyChooseUs = () => {
     {
       icon: <Heart className="h-12 w-12 text-secondary" />,
       title: "Cuidado Personalizado",
-      description: "Adaptamos nuestros servicios a tus necesidades específicas",
+      description: "Adaptamos nuestro servicio a cada necesidad y patología",
     },
     {
       icon: <User className="h-12 w-12 text-secondary" />,
