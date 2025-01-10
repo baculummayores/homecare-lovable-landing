@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/components/ui/use-toast";
 
 export const ContactForm = () => {
@@ -9,7 +8,6 @@ export const ContactForm = () => {
     name: "",
     email: "",
     phone: "",
-    message: "",
   });
   const { toast } = useToast();
 
@@ -19,7 +17,7 @@ export const ContactForm = () => {
       title: "Mensaje enviado",
       description: "Nos pondremos en contacto contigo pronto.",
     });
-    setFormData({ name: "", email: "", phone: "", message: "" });
+    setFormData({ name: "", email: "", phone: "" });
   };
 
   return (
@@ -58,16 +56,6 @@ export const ContactForm = () => {
                 value={formData.phone}
                 onChange={(e) =>
                   setFormData({ ...formData, phone: e.target.value })
-                }
-                required
-              />
-            </div>
-            <div>
-              <Textarea
-                placeholder="Mensaje"
-                value={formData.message}
-                onChange={(e) =>
-                  setFormData({ ...formData, message: e.target.value })
                 }
                 required
               />
