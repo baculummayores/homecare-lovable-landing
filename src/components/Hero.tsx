@@ -22,9 +22,9 @@ export const Hero = () => {
           </div>
           <div className="md:w-1/2">
             <img
-              src="/placeholder.svg"
-              alt="Cuidados profesionales"
-              className="rounded-lg shadow-xl"
+              src="/lovable-uploads/1acdbc84-f97c-460d-990d-fcb8d29c526e.png"
+              alt="Manos entrelazadas representando el cuidado y apoyo a nuestros mayores"
+              className="rounded-lg shadow-xl w-full h-auto object-cover"
               width={600}
               height={400}
             />
