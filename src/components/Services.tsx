@@ -14,6 +14,10 @@ export const Services = () => {
       title: "Gestión de Medicamentos y Terapias",
       description: "Gestión de medicamentos y terapias y ejercicios personalizados",
     },
+    {
+      title: "Asesoramiento Familiar",
+      description: "Orientación y apoyo profesional para familias en el cuidado de sus mayores",
+    },
   ];
 
   return (
@@ -22,7 +26,7 @@ export const Services = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
           Nuestros Servicios
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow">
               <CardHeader>
