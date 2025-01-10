@@ -7,7 +7,7 @@ export const Hero = () => {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground mb-6">
-              Cuidados a domicilio para nuestros mayores
+              Cuidado a domicilio para nuestros mayores
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-8">
               Ofrecemos servicios de atención domiciliaria adaptándonos a las condiciones de cada persona
