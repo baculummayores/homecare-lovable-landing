@@ -10,7 +10,7 @@ export const WhyChooseUs = () => {
     {
       icon: <User className="h-12 w-12 text-secondary" />,
       title: "Personal Cualificado",
-      description: "Equipo profesional con amplia experiencia en cuidados",
+      description: "Equipo profesional con mínimo 2 años de experiencia",
     },
     {
       icon: <PhoneCall className="h-12 w-12 text-secondary" />,
