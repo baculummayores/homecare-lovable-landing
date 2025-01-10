@@ -12,7 +12,7 @@ export const Hero = () => {
             <p className="text-lg md:text-xl text-gray-700 mb-8">
               Ofrecemos servicios de atención domiciliaria adaptándonos a las condiciones de cada persona
             </p>
-            <div className="flex justify-center md:justify-start">
+            <div className="flex justify-center">
               <a
                 href="#contact"
                 className="inline-flex items-center px-6 py-3 bg-secondary text-white rounded-lg hover:bg-secondary/90 transition-colors"
