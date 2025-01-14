@@ -8,7 +8,7 @@ const Navbar = () => {
           className="h-16 w-auto"
         />
         <img
-          src="/lovable-uploads/fedb9c2c-012d-48a2-bd13-005c1b44abb7.png"
+          src="/lovable-uploads/4d492324-0785-4443-8578-24a37ddeba7f.png"
           alt="Empresa Social Logo"
           className="h-16 w-auto"
         />
