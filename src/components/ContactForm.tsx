@@ -122,6 +122,15 @@ export const ContactForm = () => {
               Enviar mensaje
             </Button>
           </form>
+          <p className="text-center mt-8 text-gray-600">
+            Si estás buscando empleo mándanos un email a{" "}
+            <a 
+              href="mailto:empleo@miresi.es"
+              className="text-blue-600 hover:text-blue-800 underline"
+            >
+              empleo@miresi.es
+            </a>
+          </p>
         </div>
       </div>
     </section>
